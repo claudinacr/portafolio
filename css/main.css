@@ -117,11 +117,9 @@ nav a{
     margin-left: 10%;
 }
 #sobre-mi .box-img{
-	padding: 9% 1% 9% 1%;
-  background-color: white;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  width: 100%;
+	padding: 10% 1% 10% 1%;
+  background-color: #386791;
 }
 #sobre-mi{
   padding-top: 5em;
@@ -186,6 +184,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   .title {
     font-size: 4.75rem;
   }
+
 }
 
 p {
@@ -248,6 +247,7 @@ p {
   position: absolute;
   top: 0;
   z-index: 10;
+  border-radius: 25px;
 }
 .case-study__overlay:after {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -343,36 +343,44 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   position: center;
   background-color: #ecf0f1;
 }
+
+#contacto a{
+  color: #386791 !important;
+}
 .social-box {
   width:80%;
   margin:80px auto;
+
 }
 
 .social-box-icons ul {
-  margin: -6px -3px 0;
   font-size: 0;
   text-align: center;
+  
+
 }
 .social-box-icons li {
   display: inline-block;
-  vertical-align: top;
   margin: 6px 3px 0;
   font-size: 11px;
   line-height: 13px;
+
+
 }
-.social-box-icons li:hover {
-  background: #C62F3F;
-}
+
 .social-box-icons a {
   display: block;
   width: 84px;
   padding: 15px 0;
-  border: 1px solid #C62F3F;
+  border: 1px solid #00617a;
   color: #BA8E93;
+  margin-right: 2em !important;
+  margin-bottom: 2em !important;
+  float: left;
+  background: #00617a;
+
 }
-.social-box-icons a:hover {
-  color: #fff;
-}
+
 .social-box-icons i {
   display: block;
   width: 36px;
@@ -381,7 +389,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   font-size: 20px;
   line-height: 36px;
   color: #fff;
-  background: #C62F3F;
+  background: #00617a;
   -o-transition: background 0.3s, color 0.3s;
   -ms-transition: background 0.3s, color 0.3s;
   -moz-transition: background 0.3s, color 0.3s;
@@ -390,26 +398,41 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 .social-box-icons a:hover i {
   background: #FFF;
   color:#009bc4;
-  font-family: 'Amita', cursive;
 
 } 
+
+#contacto{
+  padding-top: 3em;
+}
+
+#contacto h1{
+  color: #363636;
+}
 #contacto .contac-me{	
 	word-spacing: 10px;
 	color: black;
 	text-align:center;
   line-height:25px;
   font-family: 'Amita', cursive;
+  margin-top: -1.5em;
 }
 #contacto .contac-me h2{
+  padding-top: 2em;
   font-family: 'Amita', cursive;
 
 	margin: 0%;
 	padding-top: 5%;
-	color: black;
+  color: #00617a;
+  font-weight: bold;
+}
+
+figcaption h3{
+  color: #efeded !important;
+  font-weight: bold  !important;
 }
 
 #contacto .contac-me h4{
-	padding-top:2%;
+
   font-family: 'Amita', cursive;
 }
 #contacto.contac-me{
@@ -435,7 +458,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 #habilidades{
 	background: #2d9fc2;
     padding-top: 4%;
-    padding-bottom: 11%;
+
 }
 #habilidades h2{
     font-family: 'Mukta Mahee', sans-serif;
@@ -508,3 +531,29 @@ img[src='img/json.png']{
 }
 
 
+@media (max-width: 549px) {
+  .columna {
+      background-image: url("../assets/images/dawn.png");
+      background-size: cover;
+      margin-top: -15%;
+  }
+  .columna img {
+      content: url("../assets/images/kitten-large.png");
+      width: 80%;
+  }
+}
+
+@media (max-width: 549px) {
+  .nombre h1, .nombre h2 {
+      font-size: 1.5em !important;
+  }
+  img[src='img/computer.jpg']{
+    width: 1em;
+  }
+}
+
+.logo{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}

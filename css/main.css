@@ -117,10 +117,14 @@ nav a{
     margin-left: 10%;
 }
 #sobre-mi .box-img{
-	padding: 6% 3% 6% 3%;
-	background-color: white;
+	padding: 9% 1% 9% 1%;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 #sobre-mi{
+  padding-top: 5em;
 	background-color:black; 
 }
 #sobre-mi p{
@@ -160,13 +164,14 @@ nav a{
 }
 
 .title {
+  margin-top: 2em;
+  margin-bottom: 1em !important;
   text-align: center;
   font-weight: 400;
   font-size: 3.75rem;
   letter-spacing: 5px;
   background: linear-gradient(rgba(255, 0, 0, 0), #444, rgba(255, 0, 0, 0));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   margin-bottom: 0;
 }
 @media screen and (min-width: 37.5em) {
@@ -229,6 +234,7 @@ p {
 }
 
 .case-study__overlay {
+  
   width: 100%;
   height: 100%;
   position: absolute;
@@ -236,6 +242,9 @@ p {
   z-index: 10;
 }
 .case-study__overlay:after {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   content: '';
   width: 100%;
   border-radius: 10px;
@@ -300,16 +309,18 @@ p {
 }
 
 .study2 {
-  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/screencapture-file-home-laboratoria-083-Escritorio-WEATHER-index-html-1519051072756.png");
+  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/appecommerce.png");
 }
 .study3 {
   background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/screencapture-file-home-laboratoria-083-Escritorio-ee-extract-links-from-md-index-html-1519051292871.png");
 }
 
 .study4 {
-  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/screencapture-file-home-laboratoria-083-Escritorio-t-Twitter-index-html-1519051440511.png");
+  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/twitter.png");
 }
 #proyectos{
+  padding-top: 5em;
+  padding-bottom: 2em;
   background-image: url("../img/sativa.png");
 }
 #proyectos .title{
@@ -446,5 +457,35 @@ span {
     font-size:40px;
     font-weight:300;
     margin-left:5px;
+}
+
+img[src='img/Boostrap_logo.svg']{
+  margin-top:1em;
+  width: 5em;
+}
+
+img[src='img/html5.png']{
+  margin-top:1em;
+  width: 6em;
+}
+
+img[src='img/css.png']{
+  margin-top:1em;
+  width: 6em;
+}
+
+img[src='img/react.svg']{
+  margin-top:1em;
+  width: 6em;
+}
+
+img[src='img/sql.png']{
+  margin-top:1em;
+  width: 6em;
+}
+
+img[src='img/json.png']{
+  margin-top:1em;
+  width: 6em;
 }
 

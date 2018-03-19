@@ -84,6 +84,7 @@ transform: translateY(0);
 -moz-transition: all 0.2s ease-in-out;
 transition: all 0.2s ease-in-out;
 -webkit-transform: translateZ(0);
+opacity: 0.5;
 }
 .navbar-default .navbar-nav>li>a {
     color: white;
@@ -362,6 +363,39 @@ border: 0px solid #000000;
 -webkit-border-radius: 10px 10px 10px 10px;
 border: 0px solid #000000;
 }
+
+.study5 {
+  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/cinema.png");
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+}
+
+.study6 {
+  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/trello.png");
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+}
+
+.study7 {
+  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/lyft.png");
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+}
 #proyectos{
   padding-top: 5em;
   padding-bottom: 2em;
@@ -378,6 +412,10 @@ border: 0px solid #000000;
   background-size:cover;
   position: center;
   background-color: #ecf0f1;
+}
+#contacto H1{
+  /*background-image: url(../img/bg-hero-1.jpg);*/
+font-weight: bold;
 }
 
 #contacto a{

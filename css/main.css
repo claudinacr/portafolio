@@ -73,7 +73,7 @@
 	height: 680px;
 }
 #menu.active {
-  background-color: #F16B62;
+  background-color: #2d9fc2;
   padding-bottom: 21px;
   webkit-transform: translateY(0);
 -moz-transform: translateY(0);
@@ -125,12 +125,20 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 #sobre-mi{
   padding-top: 5em;
-	background-color:black; 
+	background-color: #c1dff9;
 }
 #sobre-mi p{
-	  font-family: 'Mukta Mahee', sans-serif;
-	color: white;
-	font-size: x-large;
+  font-family: 'Mukta Mahee', sans-serif;
+	color: #2c2f38;
+  font-size: x-large;
+  
+}
+
+#sobre-mi h2{
+  color: #2c2f38 !important;
+  font-family: 'Amita', cursive !important;
+
+  
 }
 /*
 #navegador{
@@ -381,16 +389,20 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .social-box-icons a:hover i {
   background: #FFF;
-  color:#F16B62;
+  color:#009bc4;
+  font-family: 'Amita', cursive;
+
 } 
 #contacto .contac-me{	
 	word-spacing: 10px;
 	color: black;
 	text-align:center;
-	line-height:25px;
+  line-height:25px;
+  font-family: 'Amita', cursive;
 }
 #contacto .contac-me h2{
-    font-family: 'Mukta Mahee', sans-serif;
+  font-family: 'Amita', cursive;
+
 	margin: 0%;
 	padding-top: 5%;
 	color: black;
@@ -398,24 +410,30 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 #contacto .contac-me h4{
 	padding-top:2%;
-    font-family: 'Mukta Mahee', sans-serif;
+  font-family: 'Amita', cursive;
 }
 #contacto.contac-me{
 	margin-top: 0%;
-	color: black;
+  color: black;
+  font-family: 'Amita', cursive;
+
 }
 .footer{
 	text-align:center;
 	padding:10px 0;
 	width:100%;
 	margin:0 auto;
-	background-color: rgba(255, 220, 92, 0.7);
+  background-color: #c5e2f7;
+  font-family: 'Amita', cursive;
+
 }
 .social ul li{
-	display:inline-block; 
+  display:inline-block; 
+
+  
 }
 #habilidades{
-	background: white;
+	background: #2d9fc2;
     padding-top: 4%;
     padding-bottom: 11%;
 }
@@ -488,4 +506,5 @@ img[src='img/json.png']{
   margin-top:1em;
   width: 6em;
 }
+
 

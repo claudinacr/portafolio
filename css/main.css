@@ -322,7 +322,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .study1 {
-  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/datshboard.png");
+  background-image: url("./../img/datshboard.png");
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -333,7 +333,7 @@ border: 0px solid #000000;
 }
 
 .study2 {
-  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/appecommerce.png");
+  background-image: url("./../img/appecommerce.png");
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -343,7 +343,7 @@ border: 0px solid #000000;
 border: 0px solid #000000;
 }
 .study3 {
-  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/screencapture-file-home-laboratoria-083-Escritorio-ee-extract-links-from-md-index-html-1519051292871.png");
+  background-image: url("./../img/screencapture-file-home-laboratoria-083-Escritorio-ee-extract-links-from-md-index-html-1519051292871.png");
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -354,7 +354,7 @@ border: 0px solid #000000;
 }
 
 .study4 {
-  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/twitter.png");
+  background-image: url("./../img/twitter.png");
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -365,7 +365,7 @@ border: 0px solid #000000;
 }
 
 .study5 {
-  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/cinema.png");
+  background-image: url("./../img/cinema.png");
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -376,7 +376,7 @@ border: 0px solid #000000;
 }
 
 .study6 {
-  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/trello.png");
+  background-image: url("./../img/trello.png");
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -387,7 +387,7 @@ border: 0px solid #000000;
 }
 
 .study7 {
-  background-image: url("/home/laboratoria-083/Escritorio/portafolio/img/lyft.png");
+  background-image: url("./../img/lyft.png");
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -399,7 +399,7 @@ border: 0px solid #000000;
 #proyectos{
   padding-top: 5em;
   padding-bottom: 2em;
-  background-image: url("../img/sativa.png");
+  background-image: url("./../img/sativa.png");
 }
 #proyectos .title{
   margin: 0%;

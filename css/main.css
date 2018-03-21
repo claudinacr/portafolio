@@ -604,6 +604,14 @@ img[src='img/json.png']{
   margin-top:1em;
   width: 6em;
 }
+img[src='img/jquery.png']{
+  margin-top:1em;
+  width: 6em;
+}
+img[src='img/materialize.png']{
+  margin-top:1em;
+  width: 6em;
+}
 
 
 @media (max-width: 549px) {
@@ -645,6 +653,12 @@ img[src='img/json.png']{
     background: linear-gradient(rgba(255, 0, 0, 0), #444, rgba(255, 0, 0, 0));
     -webkit-background-clip: text;
     margin-bottom: 0;
+  }
+  .description p{
+    font-size: 1em !important;
+  }
+  .description h2{
+    font-size: 1.2em !important;
   }
   
 }

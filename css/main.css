@@ -578,6 +578,9 @@ span {
 img[src='img/Boostrap_logo.svg']{
   margin-top:1em;
   width: 5em;
+  margin-left: 2em;
+  margin-right: 2em;
+
 }
 
 img[src='img/html5.png']{
@@ -624,6 +627,11 @@ img[src='img/materialize.png']{
       content: url("../assets/images/kitten-large.png");
       width: 80%;
   }
+  .ContainerH p{
+    font-size: 1em !important;
+
+  
+  }
 }
 
 @media (max-width: 549px) {
@@ -660,6 +668,48 @@ img[src='img/materialize.png']{
   .description h2{
     font-size: 1.2em !important;
   }
+  img[src='img/github-logo.png']{
+    margin-top:1em;
+    width: 3em;
+  }
+  img[src='img/js.png']{
+    margin-top:1em;
+    width: 3em;
+  }
+  img[src='img/Boostrap_logo.svg']{
+    margin-top:1em;
+    width: 3em;
+  }
+  
+  img[src='img/html5.png']{
+    margin-top:1em;
+    width: 3em;
+  }
+  
+  img[src='img/css.png']{
+    margin-top:1em;
+    width: 3em;
+  }
+  
+  img[src='img/react.svg']{
+    margin-top:1em;
+    width: 3em;
+  }
+  
+  img[src='img/sql.png']{
+    margin-top:1em;
+    width: 3em;
+  }
+  
+ 
+  img[src='img/jquery.png']{
+    margin-top:1em;
+    width: 3em;
+  }
+  img[src='img/materialize.png']{
+    margin-top:1em;
+    width: 3em;
+  }
   
 }
 
@@ -670,3 +720,23 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 
+.ContainerHabilities{
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+  justify-content: space-around;
+  padding: 2em;
+  border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+border: 0px solid #000000;
+opacity: 0.8;
+
+}
+
+.ContainerH{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
+}

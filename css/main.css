@@ -92,12 +92,12 @@ opacity: 0.5;
 }
 
 .navbar-nav{
-  font-family: 'Amita', cursive;
+  font-family: 'Mukta Mahee', sans-serif;
 
 }
 .navbar-default .navbar-nav>li>a:hover{
   color: white;
-  font-family: 'Amita', cursive;
+  font-family: 'Mukta Mahee', sans-serif;
 
 } 
 .navbar-default .navbar-toggle {
@@ -143,7 +143,7 @@ nav a{
 
 #sobre-mi h2{
   color: #2c2f38 !important;
-  font-family: 'Amita', cursive !important;
+  font-family: 'Mukta Mahee', sans-serif;
 
   
 }
@@ -487,12 +487,12 @@ font-weight: bold;
 	color: black;
 	text-align:center;
   line-height:25px;
-  font-family: 'Amita', cursive;
+  font-family: 'Mukta Mahee', sans-serif;
   margin-top: -1.5em;
 }
 #contacto .contac-me h2{
   padding-top: 2em;
-  font-family: 'Amita', cursive;
+  font-family: 'Mukta Mahee', sans-serif;
 
 	margin: 0%;
 	padding-top: 5%;
@@ -507,12 +507,12 @@ figcaption h3{
 
 #contacto .contac-me h4{
 
-  font-family: 'Amita', cursive;
+  font-family: 'Mukta Mahee', sans-serif;
 }
 #contacto.contac-me{
 	margin-top: 0%;
   color: black;
-  font-family: 'Amita', cursive;
+  font-family: 'Mukta Mahee', sans-serif;
 
 }
 .footer{
@@ -521,8 +521,7 @@ figcaption h3{
 	width:100%;
 	margin:0 auto;
   background-color: #c5e2f7;
-  font-family: 'Amita', cursive;
-
+  font-family: 'Mukta Mahee', sans-serif;
 }
 .social ul li{
   display:inline-block; 
@@ -616,6 +615,10 @@ img[src='img/materialize.png']{
   width: 6em;
 }
 
+img[src="img/MongoDB-Logo-5c3a7405a85675366beb3a5ec4c032348c390b3f142f5e6dddf1d78e2df5cb5c.png"]{
+  margin-top:1em;
+  width: 15em;
+}
 
 @media (max-width: 549px) {
   .columna {
@@ -739,4 +742,9 @@ opacity: 0.8;
   flex-direction: column;
   align-content: space-between;
 
+}
+
+.first{
+  display: flex;
+  flex-direction: row;
 }

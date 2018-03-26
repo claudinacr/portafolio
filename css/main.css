@@ -92,12 +92,12 @@ opacity: 0.5;
 }
 
 .navbar-nav{
-  font-family: 'Amita', cursive;
+  font-family: 'Mukta Mahee', sans-serif;
 
 }
 .navbar-default .navbar-nav>li>a:hover{
   color: white;
-  font-family: 'Amita', cursive;
+  font-family: 'Mukta Mahee', sans-serif;
 
 } 
 .navbar-default .navbar-toggle {
@@ -143,7 +143,7 @@ nav a{
 
 #sobre-mi h2{
   color: #2c2f38 !important;
-  font-family: 'Amita', cursive !important;
+  font-family: 'Mukta Mahee', sans-serif;
 
   
 }
@@ -183,10 +183,8 @@ nav a{
   margin-bottom: 1em !important;
   text-align: center;
   font-weight: 400;
-  font-size: 3.75rem;
+  font-size: 3em;
   letter-spacing: 5px;
-  background: linear-gradient(rgba(255, 0, 0, 0), #444, rgba(255, 0, 0, 0));
-  -webkit-background-clip: text;
   margin-bottom: 0;
 }
 @media screen and (min-width: 37.5em) {
@@ -343,7 +341,7 @@ border: 0px solid #000000;
 border: 0px solid #000000;
 }
 .study3 {
-  background-image: url("./../img/screencapture-file-home-laboratoria-083-Escritorio-ee-extract-links-from-md-index-html-1519051292871.png");
+  background-image: url("./../img/employee-directory.png");
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -487,12 +485,12 @@ font-weight: bold;
 	color: black;
 	text-align:center;
   line-height:25px;
-  font-family: 'Amita', cursive;
+  font-family: 'Mukta Mahee', sans-serif;
   margin-top: -1.5em;
 }
 #contacto .contac-me h2{
   padding-top: 2em;
-  font-family: 'Amita', cursive;
+  font-family: 'Mukta Mahee', sans-serif;
 
 	margin: 0%;
 	padding-top: 5%;
@@ -507,12 +505,12 @@ figcaption h3{
 
 #contacto .contac-me h4{
 
-  font-family: 'Amita', cursive;
+  font-family: 'Mukta Mahee', sans-serif;
 }
 #contacto.contac-me{
 	margin-top: 0%;
   color: black;
-  font-family: 'Amita', cursive;
+  font-family: 'Mukta Mahee', sans-serif;
 
 }
 .footer{
@@ -521,8 +519,7 @@ figcaption h3{
 	width:100%;
 	margin:0 auto;
   background-color: #c5e2f7;
-  font-family: 'Amita', cursive;
-
+  font-family: 'Mukta Mahee', sans-serif;
 }
 .social ul li{
   display:inline-block; 
@@ -575,43 +572,11 @@ span {
     margin-left:5px;
 }
 
-img[src='img/Boostrap_logo.svg']{
-  margin-top:1em;
-  width: 5em;
-}
-
-img[src='img/html5.png']{
-  margin-top:1em;
+.ContainerH img{
   width: 6em;
 }
 
-img[src='img/css.png']{
-  margin-top:1em;
-  width: 6em;
-}
 
-img[src='img/react.svg']{
-  margin-top:1em;
-  width: 6em;
-}
-
-img[src='img/sql.png']{
-  margin-top:1em;
-  width: 6em;
-}
-
-img[src='img/json.png']{
-  margin-top:1em;
-  width: 6em;
-}
-img[src='img/jquery.png']{
-  margin-top:1em;
-  width: 6em;
-}
-img[src='img/materialize.png']{
-  margin-top:1em;
-  width: 6em;
-}
 
 
 @media (max-width: 549px) {
@@ -623,6 +588,14 @@ img[src='img/materialize.png']{
   .columna img {
       content: url("../assets/images/kitten-large.png");
       width: 80%;
+  }
+  .ContainerH p{
+    font-size: 1em !important;
+
+  
+  }
+  .titles{
+    font-size: 1em !important;
   }
 }
 
@@ -650,8 +623,6 @@ img[src='img/materialize.png']{
     font-weight: 400;
     font-size: 2.5rem;
     letter-spacing: 5px;
-    background: linear-gradient(rgba(255, 0, 0, 0), #444, rgba(255, 0, 0, 0));
-    -webkit-background-clip: text;
     margin-bottom: 0;
   }
   .description p{
@@ -659,6 +630,39 @@ img[src='img/materialize.png']{
   }
   .description h2{
     font-size: 1.2em !important;
+  }
+  img[src='img/github-logo.png']{
+    width: 3em;
+  }
+  img[src='img/js.png']{
+    width: 2em;
+  }
+  img[src='img/Boostrap_logo.svg']{
+    width: 3em;
+  }
+  
+  img[src='img/html5.png']{
+    width: 3em;
+  }
+  
+  img[src='img/css.png']{
+    width: 3em;
+  }
+  
+  img[src='img/react.svg']{
+    width: 3em;
+  }
+  
+  img[src='img/sql.png']{
+    width: 3em;
+  }
+  
+ 
+  img[src='img/jquery.png']{
+    width: 3em;
+  }
+  img[src='img/materialize.png']{
+    width: 3em;
   }
   
 }
@@ -669,4 +673,40 @@ img[src='img/materialize.png']{
 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+
+.ContainerHabilities{
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+  justify-content: space-around;
+  padding: 2em;
+  border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+border: 0px solid #000000;
+opacity: 0.8;
+
+}
+
+.ContainerH{
+
+text-align: center;
+  width: 15em;
+  
+
+}
+
+ .ContainerH p{
+
+margin-left: auto;
+margin-right: auto;
+  width: 3em;
+  font-size: 1.5em;
+  justify-content: space-between;
+}
+
+.first{
+  display: flex;
+  flex-direction: row;
+}
 
